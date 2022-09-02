@@ -183,32 +183,32 @@
 
 .fa-instagram:before {
   content: "\f16d";
-  color: #ffffff;
+  color: #242424;
 }
 
 .fa-whatsapp:before {
   content: "\f232";
-  color:#ffffff;
+  color:#242424;
 }
 
 .fa-vk:before {
   content: "\f189";
-  color: #ffffff;
+  color: #242424;
 }
 
 .fa-telegram:before {
   content: "\f2c6";
-  color: #ffffff;
+  color: #242424;
 }
 
 .fa-bars:before {
   content: "\f0c9";
-  color: #ffffff;
+  color: #242424;
 }
 
 .fa-times:before {
   content: "\f00d";
-  color: #ffffff;
+  color: #242424;
 }
 
 .sr-only {

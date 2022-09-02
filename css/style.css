@@ -1,0 +1,69 @@
+:root {
+    --black: #151515;
+    --light_yellow: #F4D26D;
+    --black_gray: #222222;
+    --gray: #6c6c6c;
+    --light_gray: #7D7D7D;
+    --fon: #1c1c1c;
+    --red: #ad0032;
+    --dark_red: #900029;
+    --white: #ffffff;
+}
+
+/*----- [ FONTS ] -----*/
+
+@font-face {
+    font-family: Montserrat-Regular;
+    src: url(../fonts/Montserrat/static/Montserrat-Regular.ttf);
+}
+
+@font-face {
+    font-family: Montserrat-Medium;
+    src: url(../fonts/Montserrat/static/Montserrat-Medium.ttf);
+}
+
+@font-face {
+    font-family: Montserrat-Semibold;
+    src: url(../fonts/Montserrat/static/Montserrat-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: Montserrat-Bold;
+    src: url(../fonts/Montserrat/static/Montserrat-Bold.ttf);
+}
+
+/*-----------------------*/
+
+a {text-decoration: none;}
+
+header {margin-top: 25px;}
+
+.header__logo > img{
+    width: 175px;
+    height: 50px;
+}
+
+.header__society {
+    display: flex;
+    justify-content: start;
+    gap: 20px;
+}
+
+
+.header__society-phone {
+    font-family: Montserrat-Bold;
+    color: var(--black);
+}
+
+.header__button {
+    font-family: Montserrat-Semibold;
+    color: var(--black);
+    border: 1px var(--light_yellow) solid;
+    background-color: var(--light_yellow);
+    padding: 12px 41px;
+}
+
+.header__buton-yellow:hover {
+    background-color: var(--black);
+    color: var(--light_yellow);
+}
