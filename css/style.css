@@ -66,6 +66,10 @@ header {margin-top: 27px;}
     color: var(--black);
 }
 
+.header__society-phone:hover {
+    border-bottom: 3px solid #000;
+}
+
 .header__button {
     font-family: Montserrat-Semibold;
     color: var(--black);
