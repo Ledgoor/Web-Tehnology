@@ -89,3 +89,7 @@ main {
     height: 600px;
     border-radius: 25px;
 }
+
+p {
+    margin-top: 700px;
+}
