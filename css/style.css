@@ -36,11 +36,21 @@
 
 a {text-decoration: none;}
 
-header {margin-top: 25px;}
+.bg-1 {
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: rgba(168, 168, 168, 0.7);
+    width: 100%;
+    height: 75px;
+}
+
+header {margin-top: 27px;}
 
 .header__logo > img{
     width: 175px;
     height: 50px;
+    margin-top: -15px;
 }
 
 .header__society {
@@ -60,10 +70,22 @@ header {margin-top: 25px;}
     color: var(--black);
     border: 1px var(--light_yellow) solid;
     background-color: var(--light_yellow);
-    padding: 12px 41px;
+    padding: 12px 29px;
 }
 
 .header__buton-yellow:hover {
+    border: 1px var(--black) solid;
     background-color: var(--black);
     color: var(--light_yellow);
+}
+
+main {
+    margin-top: 100px;
+    background-image: url(../img/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 600px;
+    border-radius: 25px;
 }
